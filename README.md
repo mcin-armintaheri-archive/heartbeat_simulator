@@ -1,14 +1,12 @@
-# heartbeat
+# Heartbeat Simulator
 
-A Clojure library designed to ... well, that part is up to you.
+A simple animation of a beating heart created using opengl shaders.
+
+##Download the compiled JAR
+You can download a pre-compiled jar of the project from
+http://cs.mcgill.ca/~ataher5/downloads/heartbeat.jar
 
 ## Usage
-
-FIXME
-
-## License
-
-Copyright © 2015 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+```
+java -jar -Xmx1512m heartbeat.jar
+```
