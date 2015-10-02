@@ -8,4 +8,4 @@
   :main heartbeat.core
   :uberjar-name "heartbeat.jar"
   :profiles {:uberjar {:aot :all}}
-  :jvm-opts ["-Xmx1512m"])
+  :jvm-opts ["-Xmx1g"])

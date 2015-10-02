@@ -8,9 +8,9 @@
 (defn setup-heart []
   (q/smooth)
   (q/frame-rate 24)
-  {:heart (q/load-shape (clojure.java.io/resource "Heart.obj"))
-   :beat-shader (q/load-shader (.toString (clojure.java.io/resource "heart-pump.frag"))
-                               (.toString (clojure.java.io/resource "heart-pump.vert")))})
+  {:heart (q/load-shape "Heart.obj")
+   :beat-shader (q/load-shader "heart-pump.frag"
+                               "heart-pump.vert")})
 
 (defn draw-heart [state]
   (q/background 200)
