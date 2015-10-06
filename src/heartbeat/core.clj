@@ -18,7 +18,7 @@
   (q/directional-light 255 255 255 1 1 0)
   (q/translate (/ (q/width) 2) (/ (q/height) 2) 0)
   (q/scale 2 -2 2)
-  (.set (:beat-shader state) "TIME_FROM_INIT" (q/millis))
+  (.set (:beat-shader state) "TIME_FROM_INIT" (float (q/millis)))
   (q/shader (:beat-shader state))
   (q/shape (:heart state)))
 
