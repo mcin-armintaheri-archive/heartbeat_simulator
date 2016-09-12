@@ -8,5 +8,5 @@ http://cs.mcgill.ca/~ataher5/downloads/heartbeat.jar
 
 ## Usage
 ```
-java -jar -Xmx1g heartbeat.jar
+java -jar -Xmx2g heartbeat.jar
 ```
